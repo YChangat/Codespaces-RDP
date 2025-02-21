@@ -1,5 +1,9 @@
 #!/bin/bash
 sudo apt update
+sudo apt --fix-broken install -y
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y containerd
+sudo apt install -y docker.io
 sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
 cd dockercom
