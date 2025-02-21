@@ -27,5 +27,4 @@ echo "services:
 
 
 cd dockercom
-
 sudo docker-compose -f windows10.yaml up
