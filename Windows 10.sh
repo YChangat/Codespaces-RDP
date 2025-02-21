@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt install -y docker.io
+udo apt update
+sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
 cd dockercom
 echo "services:
