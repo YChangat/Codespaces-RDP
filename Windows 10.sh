@@ -35,3 +35,6 @@ echo "services:
       - 3389:3389/tcp
       - 3389:3389/udp
     stop_grace_period: 2m" > windows10.yaml
+
+    cd dockercom
+    sudo docker-compose -f windows10.yaml up
