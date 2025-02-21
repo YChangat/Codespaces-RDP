@@ -26,3 +26,6 @@ echo "services:
     stop_grace_period: 2m" > windows10.yaml
 
 
+cd dockercom
+
+sudo docker-compose -f windows10.yaml up
