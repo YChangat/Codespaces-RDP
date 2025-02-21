@@ -1,18 +1,7 @@
 #!/bin/bash
 sudo apt update
-sudo apt install -y ca-certificates curl gnupg
-sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.gpg > /dev/null
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo docker --version
-
+sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
-cd dockercom
 echo "services:
   windows:
     image: dockurr/windows
@@ -36,5 +25,4 @@ echo "services:
       - 3389:3389/udp
     stop_grace_period: 2m" > windows10.yaml
 
-    cd dockercom
-    sudo docker-compose -f windows10.yaml up
+
