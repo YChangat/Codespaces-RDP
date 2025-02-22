@@ -2,7 +2,6 @@
 sudo apt update
 sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
-cd dockercom
 echo "services:
   windows:
     image: dockurr/windows
@@ -26,4 +25,6 @@ echo "services:
       - 3389:3389/udp
     stop_grace_period: 2m" > Windows_10_12GB_Ram_V2.yaml
 
+
+cd dockercom
 sudo docker-compose -f Windows_10_12GB_Ram_V2.yaml
