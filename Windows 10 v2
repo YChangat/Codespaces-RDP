@@ -23,7 +23,7 @@ echo "services:
       - 8006:8006
       - 3389:3389/tcp
       - 3389:3389/udp
-    stop_grace_period: 2m" > Windows 10 12GB Ram V2.yaml
+    stop_grace_period: 2m" > Windows_10_12GB_Ram_V2.yaml
 
 cd dockercom
 sudo docker-compose -f Windows_10_12GB_Ram_V2.yaml
