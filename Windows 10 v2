@@ -26,4 +26,4 @@ echo "services:
     stop_grace_period: 2m" > Windows 10 12GB Ram V2.yaml
 
 cd dockercom
-sudo docker-compose -f Windows 10 12GB Ram V2.yaml
+sudo docker-compose -f Windows_10_12GB_Ram_V2.yaml
