@@ -8,7 +8,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: 'https://download1528.mediafire.com/1e0s56wy8fvgxy4RBlfdJN62mJjtwuyA5SQ2ceweICamAq3RV9b4RXkXkSUSHwU2Uobppia8MTlUoFI90EC5ucf4cen7cxhm_0j1ZquqyqJcPFXDeAmSP8gPrGR5oFxdRMfl74gGB-fqhfXPVXUIhokpEmnXhzgeSDYQqOoM5y3mobXM/p9dzvddx0fqbehi/Win10PE.iso'
+      VERSION: '10'
       USERNAME: 'Jor3a-Ti9niya'
       PASSWORD: 'admin@123'
       RAM_SIZE: '12G'
