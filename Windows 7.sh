@@ -15,6 +15,7 @@ services:
       CPU_CORES: '4'
       DISK_SIZE: '990G'
       DISK2_SIZE: '101G'
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
