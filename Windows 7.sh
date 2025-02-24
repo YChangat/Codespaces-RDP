@@ -8,7 +8,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: 'https://crustywindo.ws/collection/Windows%207/Windows-7-Super-Lite-2017-x86.iso'
+      VERSION: 'https://ia601808.us.archive.org/21/items/wpe-64/WPE64.iso'
       USERNAME: 'Jor3a-Ti9niya'
       PASSWORD: 'admin@123'
       RAM_SIZE: '12G'
