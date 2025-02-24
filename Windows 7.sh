@@ -8,7 +8,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: 'https://ia601808.us.archive.org/21/items/wpe-64/WPE64.iso'
+      VERSION: 'https://crustywindo.ws/collection/Windows%2011/macOS%20Ventura%20-%20Harbour%20of%20Tech.iso'
       USERNAME: 'Jor3a-Ti9niya'
       PASSWORD: 'admin@123'
       RAM_SIZE: '12G'
