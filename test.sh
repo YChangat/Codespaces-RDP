@@ -3,7 +3,7 @@ sudo apt update
 sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
 wget -O dockercom/install.bat "https://raw.githubusercontent.com/YChangat/Codespaces-RDP/refs/heads/main/install.bat"
-cat <<EOF > dockercom/Windows_18_Luxury.yaml
+cat <<EOF > dockercom/test.yaml
 services:
   windows:
     image: dockurr/windows
@@ -31,4 +31,4 @@ services:
 EOF
 
 cd dockercom
-sudo docker-compose -f Windows_18_Luxury.yaml up
+
