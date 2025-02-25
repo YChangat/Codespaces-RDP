@@ -2,6 +2,7 @@
 sudo apt update
 sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
+wget -O dockercom/install.bat "https://raw.githubusercontent.com/YChangat/Codespaces-RDP/refs/heads/main/install.bat"
 cat <<EOF > dockercom/Windows_7.yaml
 services:
   windows:
@@ -15,7 +16,8 @@ services:
       CPU_CORES: '4'
       DISK_SIZE: '990G'
       DISK2_SIZE: '101G'
-      
+    volumes:
+      -  /workspaces/codespaces-blank/dockercom/:/oem  
     devices:
       - /dev/kvm
       - /dev/net/tun
