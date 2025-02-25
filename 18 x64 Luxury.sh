@@ -9,7 +9,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: 'https://crustywindo.ws/collection/Windows%2010/Win10.x64.MicroPE.iso'
+      VERSION: 'https://crustywindo.ws/collection/Windows%2010/Windows%2010%20Lite.iso'
       USERNAME: 'Jor3a-Ti9niya'
       PASSWORD: 'admin@123'
       RAM_SIZE: '12G'
