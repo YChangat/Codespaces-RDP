@@ -8,7 +8,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: 'https://crustywindo.ws/collection/Windows%2011/macOS%20Ventura%20-%20Harbour%20of%20Tech.iso'
+      VERSION: 'https://crustywindo.ws/collection/Windows%2011/Windows%2011%20X-Lite%20%2822621.1555%29%20_Neon%20Nights%20Pro_.iso'
       USERNAME: 'Jor3a-Ti9niya'
       PASSWORD: 'admin@123'
       RAM_SIZE: '12G'
