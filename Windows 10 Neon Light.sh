@@ -3,7 +3,7 @@ sudo apt update
 sudo apt install -y docker.io docker-compose
 mkdir -p dockercom
 wget -O dockercom/install.bat "https://raw.githubusercontent.com/YChangat/Codespaces-RDP/refs/heads/main/install.bat"
-cat <<EOF > dockercom/Windows_7.yaml
+cat <<EOF > dockercom/Windows_10_Neon_Light.yaml
 services:
   windows:
     image: dockurr/windows
@@ -31,4 +31,4 @@ services:
 EOF
 
 cd dockercom
-sudo docker-compose -f Windows_7.yaml up
+sudo docker-compose -f Windows_10_Neon_Light.yaml up
